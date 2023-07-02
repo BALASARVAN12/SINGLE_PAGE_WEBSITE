@@ -336,19 +336,20 @@ opacity:.65
 	vertical-align:bottom
 }
 .home-area {
-    background-image: url(../img/banner.jpeg);
+    background-image: url(../img/z_banner.jpeg);
     background-size: 100%;
+	width: 100%;
     height: 640px;
     background-repeat: no-repeat;
 }
 .item-bg1 {
-	background-image:url(../img/banner.jpg)
+	background-image:url(../img/z_banner.jpeg)
 }
 .item-bg2 {
-	background-image:url(../img/banner.jpg)
+	background-image:url(../img/z_banner.jpg)
 }
 .item-bg3 {
-	background-image:url(../img/banner.jpg)
+	background-image:url(../img/z_banner.jpg)
 }
 .main-banner-content {
     max-width: 380px;
@@ -650,7 +651,7 @@ transition:.5s;
 	height:100%;
 	position:relative;
 	z-index:1;
-	background-image:url(../img/amenties.jpeg);
+	background-image:url(../img/amenties.jpg);
 	background-position:center center;
 	background-size:cover;
 	background-repeat:no-repeat
