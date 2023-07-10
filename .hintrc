@@ -19,6 +19,7 @@
           "-webkit-font-feature-settings"
         ]
       }
-    ]
+    ],
+    "disown-opener": "off"
   }
 }

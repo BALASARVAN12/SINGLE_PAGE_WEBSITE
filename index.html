@@ -187,43 +187,42 @@
                                         <div class="col-lg-12 col-md-6">
                                             <h2>Enquire Now</h2>
                                             <div class="line-border-top"></div>
-                                            <form method="post" action="thank-you.php">
+                                            <form method="post" action="">
                                                 <div class="col-lg-12 col-md-6">
                                                     <input type="hidden" class="form-control" name="from" value="" />
                                                     <div class="form-group has-error">
-                                                        <!-- <label>Your Name</label> -->
-                                                        <input type="text" class="form-control" name="name" placeholder="Enter your name" required="" data-error="Please enter your name" />
-                                                        <!-- <div class="help-block with-errors"><ul class="list-unstyled"><li>Please enter your name</li></ul></div> -->
+                                                        <input type="text" class="form-control" name="Name" placeholder="Enter your name" required="" data-error="Please enter your name" />
                                                     </div>
                                                 </div>
-
+                                            
                                                 <div class="col-lg-12 col-md-6">
                                                     <div class="form-group">
-                                                        <!-- <label>Your Email</label> -->
-                                                        <input type="number" class="form-control" name="phone" placeholder="Enter your phone" required="" data-error="Please enter your email" />
+                                                        <input type="number" class="form-control" name="Phone" placeholder="Enter your phone" required="" data-error="Please enter your email" />
                                                         <div class="help-block with-errors"></div>
                                                     </div>
                                                 </div>
+                                            
                                                 <div class="col-lg-12 col-md-12">
                                                     <div class="form-group">
-                                                        <!-- <label>Your Phone</label> -->
-                                                        <input type="email" class="form-control" name="email" required="" data-error="Please enter your Email" placeholder="Enter your Email" />
+                                                        <input type="email" class="form-control" name="Email" required="" data-error="Please enter your Email" placeholder="Enter your Email" />
                                                         <div class="help-block with-errors"></div>
                                                     </div>
                                                 </div>
+                                            
                                                 <div class="col-lg-12 col-md-12">
                                                     <div class="form-group">
-                                                        <!-- <label>Your Message</label> -->
-                                                        <textarea placeholder="Enter your messsage" name="message" id="message" class="form-control" cols="30" rows="3"  data-error="Write your message"></textarea>
+                                                        <textarea placeholder="Enter your message" name="Message" id="message" class="form-control" cols="30" rows="3"  data-error="Write your message"></textarea>
                                                         <div class="help-block with-errors"></div>
                                                     </div>
                                                 </div>
+                                            
                                                 <div class="col-lg-12 col-md-12">
                                                     <button type="submit" class="default-btn disabled" name="submit">Send Message</button>
                                                     <div class="h3 text-center hidden"></div>
                                                     <div class="clearfix"></div>
                                                 </div>
                                             </form>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -688,42 +687,41 @@ function showSlides() {
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-12">
-                        <form method="POST" action="thank-you.php">
-                            <input type="hidden" class="form-control" name="from" value="" />
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group">
-                                        <!-- <label>Your Name</label> -->
-                                        <input type="text" class="form-control" name="name" placeholder="Name" required="" />
-                                        <div class="help-block with-errors"></div>
-                                    </div>
+                        <form method="post" action="" name="contactdata">
+                            <div class="col-lg-12 col-md-6">
+                                <input type="hidden" class="form-control" name="from" value="" />
+                                <div class="form-group has-error">
+                                    <!-- <label>Your Name</label> -->
+                                    <input type="text" class="form-control" name="Name" placeholder="Enter your name"  data-error="Please enter your name" />
+                                    <!-- <div class="help-block with-errors"><ul class="list-unstyled"><li>Please enter your name</li></ul></div> -->
                                 </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group">
-                                        <!-- <label>Your Email</label> -->
-                                        <input type="number" class="form-control" name="phone" placeholder="Phone" required="" />
-                                        <div class="help-block with-errors"></div>
-                                    </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-6">
+                                <div class="form-group">
+                                    <!-- <label>Your Email</label> -->
+                                    <input type="number" class="form-control" name="Phone" placeholder="Enter your phone" required data-error="Please enter your Phone Number" />
+                                    <div class="help-block with-errors"></div>
                                 </div>
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <!-- <label>Your Phone</label> -->
-                                        <input type="email" class="form-control" name="email" placeholder="Email" required="" />
-                                        <div class="help-block with-errors"></div>
-                                    </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <!-- <label>Your Phone</label> -->
+                                    <input type="email" class="form-control" name="Email" required data-error="Please enter your Email" placeholder="Enter your Email" />
+                                    <div class="help-block with-errors"></div>
                                 </div>
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <!-- <label>Your Message</label> -->
-                                        <textarea placeholder="Enter your messsage" name="message" class="form-control" cols="30" rows="2" ></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <!-- <label>Your Message</label> -->
+                                    <textarea placeholder="Enter your messsage" name="Message" id="Message" class="form-control" cols="30" rows="3"  data-error="Write your message"></textarea>
+                                    <div class="help-block with-errors"></div>
                                 </div>
-                                <div class="col-lg-12 col-md-12">
-                                    <button type="submit" class="default-btn" name="submit">Send Message</button>
-                                    <div class="h3 text-center hidden"></div>
-                                    <div class="clearfix"></div>
-                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <button type="submit" class="default-btn disabled" name="submit">Send Message</button>
+                                <div class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
                             </div>
                         </form>
                     </div>
@@ -741,28 +739,33 @@ function showSlides() {
         <div class="modal" id="InquireNow" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <button type="button" class="btn-close" data-dismiss="modal">×</button>
+                    <button type="button" class="btn-close" data-dismiss="modal">x</button>
                     <div class="inquire-form-style text-center" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
                         <h3 class="form-head">Enquire Now</h3>
                         <div class="line-border"></div>
 
-                        <form method="POST" action="thank-you.php">
+                        <form method="post" action="">
                             <input type="hidden" class="form-control" name="from" value="" />
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="name" placeholder="Enter Your Full Name" required="required" />
+                                        <input type="text" class="form-control" name="Name" placeholder="Enter Your Full Name" required/>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" name="Phone" placeholder="Enter Your Email id" required/>
+                                        <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter Your Email Id" required="required" />
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="number" class="form-control" name="phone" placeholder="Enter Your Phone Number" required="required" />
+                                        <input type="email" class="form-control" name="Email" placeholder="Enter Your Phone number" required/>
+                                        <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea class="form-control" name="messages" placeholder="Tell us something about your message" ></textarea>
+                                        <textarea class="form-control" name="Message" placeholder="Tell us something about your message" ></textarea>
+                                        <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -806,7 +809,17 @@ function showSlides() {
                 });
             });
         </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzkyfpGJWsYjg-kMxV6kA_XLxCHY3d_LKi_Uvii4vMrPHnVI9eidMhuuhUaZuuxDfIccA/exec'
+    const contactform = document.forms['contactdata']
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(contactform)})
+        .then(response => alert("Thank you! your form is submitted successfully." ))
+        .then(() => {  window.location.reload(); })
+        .catch(error => console.error('Error!', error.message))
+    })
 
-  
+</script>
     </body>
 </html>
